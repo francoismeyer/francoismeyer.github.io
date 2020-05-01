@@ -26,11 +26,11 @@ body {
 
 p {
     font-size:0.8em;
-    margin:0.5em 0em 0.8em 200px;
+    margin:0.5em 0em 0.8em 64px;
 }
 
 p.firstP {
-    margin:0.1em 0em 1.4em 200px;
+    margin:0.1em 0em 1.4em 64px;
 }
 
 .clear {
@@ -42,7 +42,7 @@ p.firstP {
 }
 
 #lapage {
-    margin:0px 200px 0px 200px;
+    margin:0px 64px 0px 10px;
     width:48em;
     text-align:left;
 }
@@ -68,7 +68,7 @@ p.firstP {
 }
 
 #mainMenu {
-    margin: 3em 0px 2em 200px;
+    margin: 3em 0px 2em 64px;
     font-size: 1.1em;
 }
 
@@ -151,7 +151,7 @@ h2 {
     text-transform:uppercase;
     font-family:  Verdana, Andale Mono, Trebuchet, Arial,   sans-serif;
     font-weight:normal;
-    margin: 2.2em 0px 0px 200px;
+    margin: 2.2em 0px 0px 64px;
     line-height: 1.5em;
     clear:both;
 }
@@ -159,20 +159,20 @@ h2 {
 h3 {
     font-size:0.9em;
     font-weight:normal;
-    margin: 1.5em 0em 0.4em 200px;
+    margin: 1.5em 0em 0.4em 64px;
 }
 
 h4 {
     font-size:0.7em;
     font-weight:normal;
-    margin: 1.5em 0em 0.4em 200px;
+    margin: 1.5em 0em 0.4em 64px;
     line-height: 0.9em;
     padding-top:10px;
 }
 
 #footer {
     clear:left;
-    margin: 1.5em 0px 0px 200px;
+    margin: 1.5em 0px 0px 64px;
     padding-top:8px;
     border-top: 1px solid #A7A8A9;
     font:normal 10px verdana,sans-serif;
@@ -181,7 +181,7 @@ h4 {
 }
 
 #publications {
-    margin:0px 0px 0px 200px;
+    margin:0px 0px 0px 64px;
 }
 
 #publications ul {

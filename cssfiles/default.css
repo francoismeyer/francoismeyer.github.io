@@ -113,27 +113,23 @@ p.firstP {
 }
 
 .menuHome {
-    padding-right:8px;
+    padding-right:16px;
 }
 
 .menuPapers {
     padding-left:16px;
-    padding-right:8px;
 }
 
 .menuCourses {
     padding-left:16px;
-    padding-right:8px;
 }
 
 .menuSoftware {
     padding-left:16px;
-    padding-right:8px;
 }
 
 .menuStudents {
     padding-left:16px;
-    padding-right:8px;
 }
 
 .menuBackground {

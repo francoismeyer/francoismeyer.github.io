@@ -43,7 +43,7 @@ p.firstP {
 
 #lapage {
     margin:0px 0px 0px 32px;
-    width:38em;
+    width:640px;
     text-align:left;
 }
 
@@ -113,27 +113,27 @@ p.firstP {
 }
 
 .menuHome {
-    padding-right:32px;
+    padding-right:8px;
 }
 
 .menuPapers {
     padding-left:16px;
-    padding-right:24px;
+    padding-right:8px;
 }
 
 .menuCourses {
     padding-left:16px;
-    padding-right:24px;
+    padding-right:8px;
 }
 
 .menuSoftware {
     padding-left:16px;
-    padding-right:24px;
+    padding-right:8px;
 }
 
 .menuStudents {
     padding-left:16px;
-    padding-right:24px;
+    padding-right:8px;
 }
 
 .menuBackground {
@@ -203,7 +203,7 @@ h4 {
 #publications ul li {
     float:left;
     margin:0px 0px 8px 0px;
-    width:38em;
+    width:576px;
 }
 
 #publications ul li a {
@@ -220,7 +220,7 @@ h4 {
     font-size:0.8em;
     font-weight:500;
     margin-bottom:0px;
-    width:38em;
+    width:576px;
     display: block;
     background:none;
 } 
@@ -250,7 +250,7 @@ h4 {
     font-weight:500;
     font-style: italic;
     margin-bottom:0px;
-    width:38em;
+    width:576px;
     display: block;
     background:none;
 }
@@ -269,7 +269,7 @@ h4 {
     font-weight:300;
     font-style: italic;
     margin-bottom:4px;
-    width:38em;
+    width:576px;
     display: block;
     background:none;
 }

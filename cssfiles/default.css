@@ -11,8 +11,6 @@ EFEFEF  gris ters clair
 */
 
 
-
-
 body {
     background-color:#141718;
     color:#FFFFFF;
@@ -26,11 +24,12 @@ body {
 
 p {
     font-size:0.8em;
-    margin:0px 0px 0px 64px;
+    margin: 0% 0% 0% 4%;
+    width:40%;
 }
 
 p.firstP {
-    margin:0.1em 0em 1.4em 64px;
+    margin: 0% 0% 0% 4%;
 }
 
 .clear {
@@ -42,8 +41,8 @@ p.firstP {
 }
 
 #lapage {
-    margin:0px 0px 0px 32px;
-    width:640px;
+    margin:0px 0px 0px 1%;
+    width:90%;
     text-align:left;
 }
 
@@ -54,7 +53,7 @@ p.firstP {
 
 #mainbody a {
     text-decoration:none;
-    color:#FFFFFF;
+    color:AADCB8;
 }
 
 #mainbody a:hover {
@@ -68,8 +67,8 @@ p.firstP {
 }
 
 #mainMenu {
-    margin: 3em 0px 2em 64px;
-    font-size: 1.1em;
+    margin: 4% 0% 2% 4%;
+    font-size: 1.2em;
 }
 
 #mainMenu a {
@@ -113,27 +112,26 @@ p.firstP {
 }
 
 .menuHome {
-    padding-right:16px;
 }
 
 .menuPapers {
-    padding-left:16px;
+    padding-left:1.5%;
 }
 
 .menuCourses {
-    padding-left:16px;
+    padding-left:1.5%;
 }
 
 .menuSoftware {
-    padding-left:16px;
+    padding-left:1.5%;
 }
 
 .menuStudents {
-    padding-left:16px;
+    padding-left:1.5%;
 }
 
 .menuBackground {
-    padding-left:16px;
+    padding-left:1.5%;
 }
 
 em.key {
@@ -152,7 +150,7 @@ h2 {
     text-transform:uppercase;
     font-family:  Verdana, Andale Mono, Trebuchet, Arial,   sans-serif;
     font-weight:normal;
-    margin: 0em 0px 0px 64px;
+    margin: 0em 0px 0px 4%;
     line-height: 1.5em;
     clear:both;
 }
@@ -160,23 +158,24 @@ h2 {
 h3 {
     font-size:1.0em;
     font-weight:normal;
-    margin: 0px 0px 0px 32px;
-    padding:32px;
+    margin: 2% 0% 2% 4%;
+    padding:0;
     text-align:left;
 }
 
 h4 {
     font-size:0.7em;
     font-weight:normal;
-    margin: 1.5em 0em 0.4em 64px;
+    margin: 1.5em 0em 0.4em 4%;
     line-height: 0.9em;
-    padding-top:10px;
+    padding-top:6%;
 }
 
 #footer {
     clear:left;
-    margin: 8em 0px 0px 64px;
-    padding-top:8px;
+    width:33%;
+    margin: 2% 0px 0px 4%;
+    padding-top:0.5%;
     padding-bottom:0px;
     border-top: 1px solid #A7A8A9;
     font:normal 10px verdana,sans-serif;
@@ -185,12 +184,12 @@ h4 {
 }
 
 #publications {
-    margin:0px 0px 0px 64px;
+    margin:0px 0px 0px 4%;
 }
 
 #publications ul {
     margin:0px;
-    margin-left:-7px;
+    margin-left:0%;
     padding:0px;
     list-style:none;
     line-height:1em;
@@ -198,25 +197,26 @@ h4 {
 
 #publications ul li {
     float:left;
-    margin:0px 0px 8px 0px;
-    width:576px;
+    margin:0% 0% 0% 0px;
+    width:60%;
 }
 
 #publications ul li a {
     color:#1F1448;
     background: none;
     display: block;
-    padding:4px;
-    padding-left:8px;
-    padding-bottom:4px;
+    padding:0%;
+    padding-left:0%;
+    padding-bottom:0%;
 }
 #publications ul li a span.lapub{
     color:#FFFFFF;
     display: inline-block;
     font-size:0.8em;
     font-weight:500;
-    margin-bottom:0px;
-    width:576px;
+    margin-bottom:0%;
+    margin-left:0%;
+    width:60%;
     display: block;
     background:none;
 } 
@@ -224,20 +224,32 @@ h4 {
 /* une petite fleche */
 #publications ul li a span.lapub::after {
     position: relative;
-    font-size:1.8em;
+    font-size:2em;
     display: inline-block;
     color:#D8004D;
-    content: "\2192";
+    content: " \2192";
 }
 
 
 #publications ul li a:hover span.lapub {
     color:#000000;
     border:none;
+    padding-bottom:0.5%;
+    padding-left:0.5%;
+    width:60%;
     display: block;
-    background:#CBCAC7
+    background:#CBCAC7;
 }
 
+#publications ul li a:hover span.lapub::after {
+    position: relative;
+    padding-bottom:0.5%;
+    padding-left:0.5%;
+    font-size:2em;
+    display: inline-block;
+    color:#575BB8;
+    content: " \2192";
+}
 
 #publications ul li a span.journal {
     color:#EFEFEF;
@@ -246,13 +258,17 @@ h4 {
     font-weight:500;
     font-style: italic;
     margin-bottom:0px;
-    width:576px;
+    margin-left:0%;
+    width:60%;
     display: block;
     background:none;
 }
 #publications ul li a:hover span.journal {
     color:#000000;
+    padding-bottom:0.5%;
+    padding-left:0.5%;
     border:none;
+    width:60%;
     display: block;
     background:#CBCAC7
 }
@@ -264,59 +280,19 @@ h4 {
     font-size:0.8em;
     font-weight:300;
     font-style: italic;
-    margin-bottom:4px;
-    width:576px;
+    margin-bottom:1%;
+    width:60%;
     display: block;
     background:none;
 }
 
 #publications ul li a:hover span.auteurs {
     color:#000000;
+    padding-bottom:0.5%;
+    padding-left:0.5%;
     border:none;
     display: block;
     background:#CBCAC7
 }
-ul.pages {
-    clear:left;
-    margin:0px 0px 1em 197px;;
-    padding:0px;
-    text-align:left;
-    list-style:none;
-    font-size:0.8em;
-}
 
-ul.pages li {
-    margin:0px 3px 0px 3px;
-    display:inline;
-}
-
-ul.pages li.current {
-    font-weight:bold;
-}
-
-td.entry
-{
-    text-align: left;
-    text-indent: 0px;
-    font-family: Verdana;
-    font-size: 1.0em;
-    border-collapse: collapse;
-}
-td.title
-{
-    text-align: left;
-    text-indent: 0px;
-    font-family: Verdana;
-    font-size: 1.0em;
-    color:#FFF;
-}
-
-td.cell
-{ 
-    text-align: left;
-    text-indent: 0px;
-    font-family: Verdana;
-    font-weight: normal;
-    font-size: 1.0em;
-}
 

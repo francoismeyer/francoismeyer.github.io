@@ -7,13 +7,14 @@ D8004D  fraise
 A7A8A9  gris clair
 EFEFEF  gris ters clair
 575BB8  violet
+45BD2A  vert
 
 */
 
 
 body {
-    background-color:#141718;
-    color:#FFFFFF;
+    background-color:#EFEFEF;
+    color:#000000;
     font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Verdana, Arial,  Andale Mono, sans-serif;
     font-size:1.2em;
     padding:0;
@@ -53,12 +54,14 @@ p.firstP {
 
 #mainbody a {
     text-decoration:none;
-    color:AADCB8;
+    background:ffffff;
+    color:#D8004D;
 }
 
 #mainbody a:hover {
     text-decoration:none;
-    color:#D8004D;
+    background:ffffff;
+    color:#45BD2A;
 }
 
 .error {
@@ -173,13 +176,13 @@ h4 {
 
 #footer {
     clear:left;
-    width:33%;
+    width:40%;
     margin: 2% 0px 0px 4%;
     padding-top:0.5%;
     padding-bottom:0px;
     border-top: 1px solid #A7A8A9;
     font:normal 10px verdana,sans-serif;
-    color:#FFFFFF;
+    color:#141718;
     text-decoration:none;
 }
 
@@ -198,101 +201,72 @@ h4 {
 #publications ul li {
     float:left;
     margin:0% 0% 0% 0px;
-    width:60%;
+    width:64%;
 }
 
 #publications ul li a {
-    color:#1F1448;
-    background: none;
+    color:#575BB8;
+    background:none;
     display: block;
     padding:0%;
     padding-left:0%;
     padding-bottom:0%;
+    
 }
 #publications ul li a span.lapub{
-    color:#FFFFFF;
-    display: inline-block;
+    color:#000000;
+    background:#FFFFFF;
+    display:inline-block;
     font-size:0.8em;
     font-weight:500;
-    margin-bottom:0%;
-    margin-left:0%;
-    width:60%;
-    display: block;
-    background:none;
+    padding-left:1%;
+    padding-right:1%;
+    padding-top:1%;
+    border-radius: 10px 10px 0px 0px;
+    width:64%;
+    display:block;
 } 
 
-/* une petite fleche */
-#publications ul li a span.lapub::after {
-    position: relative;
-    font-size:2em;
-    display: inline-block;
-    color:#D8004D;
-    content: " \2192";
-}
-
-
 #publications ul li a:hover span.lapub {
-    color:#000000;
+    color:#45BD2A;
+    background:#FFFFFF;
     border:none;
-    padding-bottom:0.5%;
-    padding-left:0.5%;
-    width:60%;
+    padding-left:1%;
+    padding-right:1%;
+    padding-top:1%;
+    width:64%;
     display: block;
-    background:#CBCAC7;
 }
 
-#publications ul li a:hover span.lapub::after {
-    position: relative;
-    padding-bottom:0.5%;
-    padding-left:0.5%;
-    font-size:2em;
-    display: inline-block;
-    color:#575BB8;
-    content: " \2192";
-}
-
-#publications ul li a span.journal {
-    color:#EFEFEF;
+#publications ul li  span.journal {
+    color:#000000;
+    background:#FFFFFF;
     display: inline-block;
     font-size:0.8em;
-    font-weight:500;
+    font-weight:700;
     font-style: italic;
-    margin-bottom:0px;
-    margin-left:0%;
-    width:60%;
+    padding-left:1%;
+    padding-right:1%;
+    width:64%;
     display: block;
-    background:none;
 }
-#publications ul li a:hover span.journal {
+
+
+#publications ul li  span.auteurs {
     color:#000000;
-    padding-bottom:0.5%;
-    padding-left:0.5%;
-    border:none;
-    width:60%;
-    display: block;
-    background:#CBCAC7
-}
-
-
-#publications ul li a span.auteurs {
-    color:#EFEFEF;
+    background:#FFFFFF;
     display: inline-block;
     font-size:0.8em;
     font-weight:300;
     font-style: italic;
     margin-bottom:1%;
-    width:60%;
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom:1%;
+    border-radius: 0px 0px 10px 10px;
+    width:64%;
     display: block;
-    background:none;
 }
 
-#publications ul li a:hover span.auteurs {
-    color:#000000;
-    padding-bottom:0.5%;
-    padding-left:0.5%;
-    border:none;
-    display: block;
-    background:#CBCAC7
-}
 
 

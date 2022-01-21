@@ -43,7 +43,7 @@ p.firstP {
 
 #lapage {
     margin:0px 0px 0px 1%;
-    width:90%;
+    width:100%;
     text-align:left;
 }
 
@@ -196,11 +196,19 @@ h4 {
     padding:0px;
     list-style:none;
     line-height:1em;
+    width:100%;
 }
 
 #publications ul li {
     float:left;
     margin:0% 0% 0% 0px;
+    display: inline-block;
+    width:64%;
+}
+#publications ul li span {
+    float:left;
+    margin:0% 0% 0% 0px;
+    display: inline-block;
     width:64%;
 }
 
@@ -211,8 +219,10 @@ h4 {
     padding:0%;
     padding-left:0%;
     padding-bottom:0%;
-    
+    width:100%;
 }
+
+
 #publications ul li a span.lapub{
     color:#000000;
     background:#FFFFFF;
@@ -224,18 +234,18 @@ h4 {
     padding-top:1%;
     border-radius: 10px 10px 0px 0px;
     width:64%;
-    display:block;
+    display:inline-block;
 } 
 
 #publications ul li a:hover span.lapub {
-    color:#45BD2A;
+    color:#575BB8;
     background:#FFFFFF;
     border:none;
     padding-left:1%;
     padding-right:1%;
     padding-top:1%;
     width:64%;
-    display: block;
+    display: inline-block;
 }
 
 #publications ul li  span.journal {
@@ -243,7 +253,7 @@ h4 {
     background:#FFFFFF;
     display: inline-block;
     font-size:0.8em;
-    font-weight:700;
+    font-weight:500;
     font-style: italic;
     padding-left:1%;
     padding-right:1%;
@@ -252,7 +262,7 @@ h4 {
 }
 
 
-#publications ul li  span.auteurs {
+#publications ul li span.auteurs {
     color:#000000;
     background:#FFFFFF;
     display: inline-block;
@@ -265,7 +275,23 @@ h4 {
     padding-bottom:1%;
     border-radius: 0px 0px 10px 10px;
     width:64%;
-    display: block;
+    display: inline-block;
+}
+
+#publications ul li a:over span.auteurs {
+    color:#45BD2A;
+    background:#FFFFFF;
+    display: inline-block;
+    font-size:0.8em;
+    font-weight:300;
+    font-style: italic;
+    margin-bottom:1%;
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom:1%;
+    border-radius: 0px 0px 10px 10px;
+    width:64%;
+    display:inline-block;
 }
 
 

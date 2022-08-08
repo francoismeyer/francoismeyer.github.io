@@ -5,12 +5,11 @@ D8004D  fraise
 141718  noir plus claire
 919191  gris moins clair
 A7A8A9  gris clair
-EFEFEF  gris tres clair
+EFEFEF  gris ters clair
 575BB8  violet
 45BD2A  vert
 
 */
-
 
 body {
     background-color:#EFEFEF;
@@ -203,13 +202,13 @@ h4 {
     float:left;
     margin:0% 0% 0% 0px;
     display: inline-block;
-    width:64%;
+    width:100%;
 }
 #publications ul li span {
     float:left;
     margin:0% 0% 0% 0px;
     display: inline-block;
-    width:64%;
+    width:100%;
 }
 
 #publications ul li a {
@@ -223,21 +222,31 @@ h4 {
 }
 
 
-#publications ul li a span.lapub{
-    color:#000000;
+#publications ul li span.letypedepub {
+    color:#575BB8;
     background:#FFFFFF;
-    display:inline-block;
     font-size:0.8em;
-    font-weight:500;
+    font-weight:lighter;
     padding-left:1%;
     padding-right:1%;
     padding-top:1%;
     border-radius: 10px 10px 0px 0px;
     width:64%;
-    display:inline-block;
+    display:block;
 } 
 
-#publications ul li a:hover span.lapub {
+#publications ul li span.lapub {
+    color:#000000;
+    background:#FFFFFF;
+    font-size:0.8em;
+    font-weight:bolder;
+    padding-left:1%;
+    padding-right:1%;
+    width:64%;
+    display:block;
+} 
+
+#publications ul li hover span.lapub {
     color:#575BB8;
     background:#FFFFFF;
     border:none;
@@ -249,6 +258,19 @@ h4 {
 }
 
 #publications ul li  span.journal {
+    color:#000000;
+    background:#FFFFFF;
+    display: inline-block;
+    font-size:0.8em;
+    font-weight:normal;
+    font-style: italic;
+    padding-left:1%;
+    padding-right:1%;
+    width:64%;
+    display: block;
+}
+
+#publications ul li a:span.lepapier {
     color:#000000;
     background:#FFFFFF;
     display: inline-block;
@@ -275,7 +297,6 @@ h4 {
     padding-bottom:1%;
     border-radius: 0px 0px 10px 10px;
     width:64%;
-    display: inline-block;
 }
 
 #publications ul li a:over span.auteurs {

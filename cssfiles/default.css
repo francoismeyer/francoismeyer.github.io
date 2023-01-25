@@ -180,7 +180,8 @@ h4 {
     padding-top:0.5%;
     padding-bottom:5%;
     border-top: 1px solid #A7A8A9;
-    font:normal 10px verdana,sans-serif;
+    font-size:0.7em;
+    font-weight:normal;
     color:#141718;
     text-decoration:none;
 }

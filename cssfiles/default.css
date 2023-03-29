@@ -47,7 +47,7 @@ p.firstP {
 }
 
 #mainbody {
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
     padding: 0px;
 }
 
@@ -180,8 +180,8 @@ h4 {
     padding-top:0.5%;
     padding-bottom:5%;
     border-top: 1px solid #A7A8A9;
-    font-size:0.7em;
-    font-weight:normal;
+    font-size:0.4em;
+    font-weight:lighter;
     color:#141718;
     text-decoration:none;
 }
@@ -315,6 +315,5 @@ h4 {
     width:64%;
     display:inline-block;
 }
-
 
 

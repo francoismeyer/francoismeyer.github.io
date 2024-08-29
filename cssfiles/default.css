@@ -5,14 +5,14 @@ D8004D  fraise
 141718  noir plus claire
 919191  gris moins clair
 A7A8A9  gris clair
-EFEFEF  gris ters clair
+EFEFEF  gris tres clair
 575BB8  violet
 45BD2A  vert
 
 */
 
 body {
-    background-color:#EFEFEF;
+    background-color:#DBE7FC;
     color:#000000;
     font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Verdana, Arial,  Andale Mono, sans-serif;
     font-size:1.2em;

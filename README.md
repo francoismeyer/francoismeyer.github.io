@@ -1,4 +1,4 @@
 # francoismeyer.github.io
 
-Academic website of François G Meyer (fmeyer@colorado.edu)
-Link to publications, software, graduate students, and courses taught.
+Academic website of François G Meyer (fmeyer@colorado.edu).
+Links to publications, software, graduate students, and courses taught.
